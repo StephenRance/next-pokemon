@@ -128,50 +128,56 @@ const Navigation = ({
   setQuery
 }) => {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
+      lineNumber: 6,
+      columnNumber: 3
+    }
   }, __jsx("ul", {
     className: "c-list  c-list--right",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: undefined
+      lineNumber: 7,
+      columnNumber: 4
+    }
   }, __jsx("li", {
     className: "c-list__item",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
+      lineNumber: 8,
+      columnNumber: 5
+    }
   }, __jsx("button", {
     className: "c-btn",
     disabled: !previous,
     onClick: () => setQuery(previous),
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
+      lineNumber: 9,
+      columnNumber: 6
+    }
   }, "Previous")), __jsx("li", {
     className: "c-list__item",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: undefined
+      lineNumber: 12,
+      columnNumber: 5
+    }
   }, __jsx("button", {
     className: "c-btn",
     disabled: !next,
     onClick: () => setQuery(next),
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: undefined
+      lineNumber: 13,
+      columnNumber: 6
+    }
   }, "Next"))));
 }; // Export
 
@@ -203,32 +209,36 @@ const Quantity = ({
   return __jsx("select", {
     defaultValue: '20',
     onChange: e => setQuery(`https://pokeapi.co/api/v2/pokemon?limit=${e.target.value}`),
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: undefined
+      lineNumber: 5,
+      columnNumber: 3
+    }
   }, __jsx("option", {
     value: "10",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
+      lineNumber: 6,
+      columnNumber: 4
+    }
   }, "10"), __jsx("option", {
     value: "20",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: undefined
+      lineNumber: 7,
+      columnNumber: 4
+    }
   }, "20"), __jsx("option", {
     value: "40",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
+      lineNumber: 8,
+      columnNumber: 4
+    }
   }, "40"));
 };
 
@@ -299,122 +309,138 @@ const PokemonArchive = ({
   };
 
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: undefined
+      lineNumber: 51,
+      columnNumber: 3
+    }
   }, __jsx("section", {
     className: "o-row",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: undefined
+      lineNumber: 52,
+      columnNumber: 4
+    }
   }, __jsx("div", {
     className: "c-archive",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: undefined
+      lineNumber: 53,
+      columnNumber: 5
+    }
   }, __jsx("div", {
     className: "o-grid",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: undefined
+      lineNumber: 54,
+      columnNumber: 6
+    }
   }, !!results && results.map(result => __jsx("div", {
     className: "o-col  o-col--2  o-col--3-desk  o-col--4-desk-sml  o-col--6-mob-lrg",
     key: result.name,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: undefined
+      lineNumber: 56,
+      columnNumber: 8
+    }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: `/pokemon/${result.name}`,
     as: `/pokemon/${result.name}`,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: undefined
+      lineNumber: 57,
+      columnNumber: 9
+    }
   }, __jsx("a", {
     className: "c-card",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: undefined
+      lineNumber: 58,
+      columnNumber: 10
+    }
   }, __jsx("figure", {
     className: "o-ar  o-ar--1-1",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: undefined
+      lineNumber: 59,
+      columnNumber: 11
+    }
   }, __jsx("img", {
     src: `https://img.pokemondb.net/artwork/${result.name}.jpg`,
     className: "o-img  o-img--contain  c-card__img",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: undefined
+      lineNumber: 60,
+      columnNumber: 12
+    }
   }))))))), __jsx("div", {
     className: "o-grid",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: undefined
+      lineNumber: 68,
+      columnNumber: 6
+    }
   }, __jsx("div", {
     className: "o-col  o-col--6",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: undefined
+      lineNumber: 69,
+      columnNumber: 7
+    }
   }, __jsx(_Quantity__WEBPACK_IMPORTED_MODULE_4__["Quantity"], {
     setQuery: setQuery,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: undefined
+      lineNumber: 70,
+      columnNumber: 8
+    }
   })), __jsx("div", {
     className: "o-col  o-col--6",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: undefined
+      lineNumber: 73,
+      columnNumber: 7
+    }
   }, __jsx(_Navigation__WEBPACK_IMPORTED_MODULE_3__["Navigation"], {
     next: next,
     previous: previous,
     setQuery: setQuery,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: undefined
+      lineNumber: 74,
+      columnNumber: 8
+    }
   }))))), __jsx("aside", {
     className: `c-archive__overlay${loading ? "  is-visible" : ""}`,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: undefined
+      lineNumber: 80,
+      columnNumber: 4
+    }
   }, __jsx("img", {
     src: "https://vignette.wikia.nocookie.net/pokemonmmo/images/4/4c/Pokeball.png/revision/latest/scale-to-width-down/220?cb=20140922213610",
     className: "c-archive__icon",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: undefined
+      lineNumber: 81,
+      columnNumber: 5
+    }
   })));
 }; // Export
 
@@ -423,65 +449,10 @@ const PokemonArchive = ({
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "core-js/library/fn/object/define-property");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "core-js/library/fn/object/get-own-property-descriptor");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ "core-js/library/fn/symbol");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "core-js/library/fn/symbol/iterator");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/weak-map.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/weak-map.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ "core-js/library/fn/weak-map");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \******************************************************************************/
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -495,24 +466,18 @@ module.exports = _interopRequireDefault;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js ***!
-  \*******************************************************************************/
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _Object$getOwnPropertyDescriptor = __webpack_require__(/*! ../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
-
-var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js");
-
-var _WeakMap = __webpack_require__(/*! ../core-js/weak-map */ "./node_modules/@babel/runtime-corejs2/core-js/weak-map.js");
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
 
 function _getRequireWildcardCache() {
-  if (typeof _WeakMap !== "function") return null;
-  var cache = new _WeakMap();
+  if (typeof WeakMap !== "function") return null;
+  var cache = new WeakMap();
 
   _getRequireWildcardCache = function _getRequireWildcardCache() {
     return cache;
@@ -539,14 +504,14 @@ function _interopRequireWildcard(obj) {
   }
 
   var newObj = {};
-  var hasPropertyDescriptor = _Object$defineProperty && _Object$getOwnPropertyDescriptor;
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
 
   for (var key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
-      var desc = hasPropertyDescriptor ? _Object$getOwnPropertyDescriptor(obj, key) : null;
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
 
       if (desc && (desc.get || desc.set)) {
-        _Object$defineProperty(newObj, key, desc);
+        Object.defineProperty(newObj, key, desc);
       } else {
         newObj[key] = obj[key];
       }
@@ -566,27 +531,23 @@ module.exports = _interopRequireWildcard;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
-  \***************************************************************/
+/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*******************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
-
-var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
-
-function _typeof2(obj) { if (typeof _Symbol === "function" && typeof _Symbol$iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
 
 function _typeof(obj) {
-  if (typeof _Symbol === "function" && _typeof2(_Symbol$iterator) === "symbol") {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
     module.exports = _typeof = function _typeof(obj) {
       return _typeof2(obj);
     };
   } else {
     module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : _typeof2(obj);
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
     };
   }
 
@@ -607,9 +568,9 @@ module.exports = _typeof;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
 exports.__esModule = true;
 exports.default = void 0;
@@ -793,10 +754,10 @@ class Link extends _react.Component {
   }
 
   handleRef(ref) {
-    var isPrefetched = prefetched[this.getPaths()[0]];
-
     if (this.p && IntersectionObserver && ref && ref.tagName) {
       this.cleanUpListeners();
+      var isPrefetched = prefetched[this.getPaths().join( // Join on an invalid URI character
+      '%')];
 
       if (!isPrefetched) {
         this.cleanUpListeners = listenToIntersections(ref, () => {
@@ -811,11 +772,23 @@ class Link extends _react.Component {
   prefetch(options) {
     if (!this.p || true) return; // Prefetch the JSON page if asked (only in the client)
 
-    var [href, asPath] = this.getPaths();
+    var paths = this.getPaths(); // We need to handle a prefetch error here since we may be
+    // loading with priority which can reject but we don't
+    // want to force navigation since this is only a prefetch
 
-    _router.default.prefetch(href, asPath, options);
+    _router.default.prefetch(paths[
+    /* href */
+    0], paths[
+    /* asPath */
+    1], options).catch(err => {
+      if (true) {
+        // rethrow to show invalid URL errors
+        throw err;
+      }
+    });
 
-    prefetched[href] = true;
+    prefetched[paths.join( // Join on an invalid URI character
+    '%')] = true;
   }
 
   render() {
@@ -921,9 +894,9 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.useRouter = useRouter;
@@ -1083,7 +1056,7 @@ function makePublicRouterInstance(router) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.default = withRouter;
@@ -1248,7 +1221,20 @@ function fetchNextData(pathname, query, isServerRender, cb) {
       // @ts-ignore __NEXT_DATA__
       pathname: `/_next/data/${__NEXT_DATA__.buildId}${pathname}.json`,
       query
-    })).then(res => {
+    }), {
+      // Cookies are required to be present for Next.js' SSG "Preview Mode".
+      // Cookies may also be required for `getServerSideProps`.
+      //
+      // > `fetch` won’t send cookies, unless you set the credentials init
+      // > option.
+      // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+      //
+      // > For maximum browser compatibility when it comes to sending &
+      // > receiving cookies, always supply the `credentials: 'same-origin'`
+      // > option instead of relying on the default.
+      // https://github.com/github/fetch#caveats
+      credentials: 'same-origin'
+    }).then(res => {
       if (!res.ok) {
         if (--attempts > 0 && res.status >= 500) {
           return getResponse();
@@ -1314,7 +1300,7 @@ class Router {
       // can be caused by navigating back from an external site
 
 
-      if (e.state && this.isSsr && e.state.url === this.pathname && e.state.as === this.asPath) {
+      if (e.state && this.isSsr && e.state.as === this.asPath && url_1.parse(e.state.url).pathname === this.pathname) {
         return;
       } // If the downstream application returns falsy, return.
       // They will then be responsible for handling the event.
@@ -1364,7 +1350,9 @@ class Router {
       this.components[this.route] = {
         Component,
         props: initialProps,
-        err
+        err,
+        __N_SSG: initialProps && initialProps.__N_SSG,
+        __N_SSP: initialProps && initialProps.__N_SSP
       };
     }
 
@@ -1408,7 +1396,9 @@ class Router {
     }
 
     const newData = Object.assign(Object.assign({}, data), {
-      Component
+      Component,
+      __N_SSG: mod.__N_SSG,
+      __N_SSP: mod.__N_SSP
     });
     this.components[route] = newData; // pages/_app.js updated
 
@@ -1606,42 +1596,9 @@ class Router {
       return Promise.resolve(cachedRouteInfo);
     }
 
-    return new Promise((resolve, reject) => {
-      if (cachedRouteInfo) {
-        return resolve(cachedRouteInfo);
-      }
-
-      this.fetchComponent(route).then(Component => resolve({
-        Component
-      }), reject);
-    }).then(routeInfo => {
-      const {
-        Component
-      } = routeInfo;
-
-      if (true) {
-        const {
-          isValidElementType
-        } = __webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js");
-
-        if (!isValidElementType(Component)) {
-          throw new Error(`The default export is not a React Component in page: "${pathname}"`);
-        }
-      }
-
-      return this._getData(() => Component.__N_SSG ? this._getStaticData(as) : Component.__N_SSP ? this._getServerData(as) : this.getInitialProps(Component, // we provide AppTree later so this needs to be `any`
-      {
-        pathname,
-        query,
-        asPath: as
-      })).then(props => {
-        routeInfo.props = props;
-        this.components[route] = routeInfo;
-        return routeInfo;
-      });
-    }).catch(err => {
+    const handleError = (err, loadErrorFail) => {
       return new Promise(resolve => {
-        if (err.code === 'PAGE_LOAD_ERROR') {
+        if (err.code === 'PAGE_LOAD_ERROR' || loadErrorFail) {
           // If we can't load the page it could be one of following reasons
           //  1. Page doesn't exists
           //  2. Page does exist in a different zone
@@ -1664,7 +1621,10 @@ class Router {
           });
         }
 
-        resolve(this.fetchComponent('/_error').then(Component => {
+        resolve(this.fetchComponent('/_error').then(res => {
+          const {
+            page: Component
+          } = res;
           const routeInfo = {
             Component,
             err
@@ -1685,9 +1645,48 @@ class Router {
               resolve(routeInfo);
             });
           });
-        }));
+        }).catch(err => handleError(err, true)));
       });
-    });
+    };
+
+    return new Promise((resolve, reject) => {
+      if (cachedRouteInfo) {
+        return resolve(cachedRouteInfo);
+      }
+
+      this.fetchComponent(route).then(res => resolve({
+        Component: res.page,
+        __N_SSG: res.mod.__N_SSG,
+        __N_SSP: res.mod.__N_SSP
+      }), reject);
+    }).then(routeInfo => {
+      const {
+        Component,
+        __N_SSG,
+        __N_SSP
+      } = routeInfo;
+
+      if (true) {
+        const {
+          isValidElementType
+        } = __webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js");
+
+        if (!isValidElementType(Component)) {
+          throw new Error(`The default export is not a React Component in page: "${pathname}"`);
+        }
+      }
+
+      return this._getData(() => __N_SSG ? this._getStaticData(as) : __N_SSP ? this._getServerData(as) : this.getInitialProps(Component, // we provide AppTree later so this needs to be `any`
+      {
+        pathname,
+        query,
+        asPath: as
+      })).then(props => {
+        routeInfo.props = props;
+        this.components[route] = routeInfo;
+        return routeInfo;
+      });
+    }).catch(handleError);
   }
 
   set(route, pathname, query, as, data) {
@@ -1785,7 +1784,7 @@ class Router {
         return;
       }
 
-      this.pageLoader[options.priority ? 'loadPage' : 'prefetch'](toRoute(pathname)).then(() => resolve(), reject);
+      Promise.all([this.pageLoader.prefetchData(url, asPath), this.pageLoader[options.priority ? 'loadPage' : 'prefetch'](toRoute(pathname))]).then(() => resolve(), reject);
     });
   }
 
@@ -1796,7 +1795,7 @@ class Router {
       cancelled = true;
     };
 
-    const Component = await this.pageLoader.loadPage(route);
+    const componentResult = await this.pageLoader.loadPage(route);
 
     if (cancelled) {
       const error = new Error(`Abort fetching component for route: "${route}"`);
@@ -1808,7 +1807,7 @@ class Router {
       this.clc = null;
     }
 
-    return Component;
+    return componentResult;
   }
 
   _getData(fn) {
@@ -2408,24 +2407,27 @@ const Page = ({
   pokemon
 }) => {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: undefined
+      lineNumber: 12,
+      columnNumber: 3
+    }
   }, __jsx("main", {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: undefined
+      lineNumber: 13,
+      columnNumber: 4
+    }
   }, __jsx(_components_PokemonArchive__WEBPACK_IMPORTED_MODULE_1__["PokemonArchive"], {
     pokemon: pokemon,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: undefined
+      lineNumber: 14,
+      columnNumber: 5
+    }
   })));
 }; // Props
 
@@ -2451,61 +2453,6 @@ Page.getInitialProps = async function () {
 
 module.exports = __webpack_require__(/*! /Users/stephenrance/Docker/next-pokemon/pages/pokemon.js */"./pages/pokemon.js");
 
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/define-property":
-/*!************************************************************!*\
-  !*** external "core-js/library/fn/object/define-property" ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/define-property");
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/get-own-property-descriptor":
-/*!************************************************************************!*\
-  !*** external "core-js/library/fn/object/get-own-property-descriptor" ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/get-own-property-descriptor");
-
-/***/ }),
-
-/***/ "core-js/library/fn/symbol":
-/*!********************************************!*\
-  !*** external "core-js/library/fn/symbol" ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/symbol");
-
-/***/ }),
-
-/***/ "core-js/library/fn/symbol/iterator":
-/*!*****************************************************!*\
-  !*** external "core-js/library/fn/symbol/iterator" ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/symbol/iterator");
-
-/***/ }),
-
-/***/ "core-js/library/fn/weak-map":
-/*!**********************************************!*\
-  !*** external "core-js/library/fn/weak-map" ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/weak-map");
 
 /***/ }),
 

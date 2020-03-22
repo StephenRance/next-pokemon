@@ -1,13 +1,16 @@
 {
   "devFiles": [
-    "static/development/dll/dll_88bfe47d29bf84228398.js",
-    "static/development/dll/dll_88bfe47d29bf84228398.js.map"
+    "static/development/dll/dll_4da73bbb6f7a1e18fb36.js",
+    "static/development/dll/dll_4da73bbb6f7a1e18fb36.js.map"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/_app": [
       "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/development/_buildManifest.js"
+      "static/runtime/main.js"
     ],
     "/_error": [
       "static/runtime/webpack.js",
@@ -16,6 +19,10 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/pokemon": [
       "static/runtime/webpack.js",
