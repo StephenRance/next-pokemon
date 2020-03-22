@@ -1,5 +1,5 @@
 # next-pokemon
-This project uses React.js to initially fetch data on the server from the Pokemon API - https://pokeapi.co/, and update the request on the client based on user navigation.
+This project is the first I've started using React.js. It initially fetches data on the server from the Pokemon API - https://pokeapi.co/, and updates the request on the client based on the user's navigation.
 
 # setup
 - Clone the project
