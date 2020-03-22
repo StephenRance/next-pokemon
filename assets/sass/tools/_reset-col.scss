@@ -1,0 +1,7 @@
+/*------------------------------------*\
+  #RESET-COLUMN
+\*------------------------------------*/
+
+@mixin reset-col($cols) {
+    max-width: (100% / $grid_column_count) * $cols;
+}

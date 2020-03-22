@@ -1,0 +1,13 @@
+/*------------------------------------*\
+  #MEDIA-QUERY
+\*------------------------------------*/
+
+@mixin mq($viewports, $constraint1: max, $constraint2: width) {
+    @if ($constraint1 == min) {
+        $viewports: #{$viewports + 1};
+    }
+
+    @media screen and (#{$constraint1}-#{$constraint2}: $viewports) {
+        @content;
+    }
+}

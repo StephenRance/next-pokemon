@@ -1,0 +1,51 @@
+/*------------------------------------*\
+  #COLUMN
+\*------------------------------------*/
+
+/**
+ * Columns
+ */
+
+$columns: 2 3 4 6 12;
+
+/**
+ * Widths
+ */
+
+$widths: (
+    desk-lrg: $mq_desk_lrg,
+    desk: $mq_desk,
+    desk-sml: $mq_desk_sml,
+    tab: $mq_tab,
+    mob-lrg: $mq_mob_lrg
+);
+
+/**
+ * Class
+ */
+
+.o-col {
+    padding: {
+        right: $grid_column_gutter;
+        left: $grid_column_gutter;
+    }
+    width: 100%;
+
+    @for $i from 1 through length($columns) {
+        &--#{nth($columns, $i)} {
+			@include reset-col(nth($columns, $i));
+        }
+    }
+
+    @for $i from 1 through length($columns) {
+        &--#{nth($columns, $i)} {
+            @each $class, $width in $widths {
+                &-#{$class} {
+                    @include mq($width) {
+                        @include reset-col(nth($columns, $i));
+                    }
+                }
+            }
+        }
+    }
+}

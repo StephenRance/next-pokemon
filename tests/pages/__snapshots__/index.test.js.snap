@@ -1,0 +1,1107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pokemon /> should match snapshot 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "Grid-sc-143fupq-0 choILo",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "Column-sc-3a2d7x-0 loLIxT",
+          "width": "4",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "Card-xtwp70-0 dpXwBU",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "href": "/pokemon/Item 1",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Item 1",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "href": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "href": undefined,
+                },
+              },
+            ],
+            "name": "article",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "class": "Column-sc-3a2d7x-0 loLIxT",
+            "width": "4",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "Card-xtwp70-0 dpXwBU",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "href": "/pokemon/Item 2",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Item 2",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "href": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "href": undefined,
+                  },
+                },
+              ],
+              "name": "article",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "class": "Column-sc-3a2d7x-0 loLIxT",
+              "width": "4",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "Card-xtwp70-0 dpXwBU",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "href": "/pokemon/Item 3",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Item 3",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "href": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "href": undefined,
+                    },
+                  },
+                ],
+                "name": "article",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "class": "Column-sc-3a2d7x-0 loLIxT",
+                "width": "4",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "Card-xtwp70-0 dpXwBU",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "href": "/pokemon/Item 4",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Item 4",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "href": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "href": undefined,
+                      },
+                    },
+                  ],
+                  "name": "article",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "width": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "width": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "class": "Column-sc-3a2d7x-0 loLIxT",
+          "width": "4",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "Card-xtwp70-0 dpXwBU",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "href": "/pokemon/Item 2",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Item 2",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "href": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "href": undefined,
+                },
+              },
+            ],
+            "name": "article",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "class": "Column-sc-3a2d7x-0 loLIxT",
+            "width": "4",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "Card-xtwp70-0 dpXwBU",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "href": "/pokemon/Item 3",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Item 3",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "href": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "href": undefined,
+                  },
+                },
+              ],
+              "name": "article",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "class": "Column-sc-3a2d7x-0 loLIxT",
+              "width": "4",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "Card-xtwp70-0 dpXwBU",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "href": "/pokemon/Item 4",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Item 4",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "href": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "href": undefined,
+                    },
+                  },
+                ],
+                "name": "article",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+          },
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "class": "Column-sc-3a2d7x-0 loLIxT",
+            "width": "4",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "Card-xtwp70-0 dpXwBU",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "href": "/pokemon/Item 1",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Item 1",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "href": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "href": undefined,
+                  },
+                },
+              ],
+              "name": "article",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "class": "Column-sc-3a2d7x-0 loLIxT",
+          "width": "4",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "Card-xtwp70-0 dpXwBU",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "href": "/pokemon/Item 3",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Item 3",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "href": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "href": undefined,
+                },
+              },
+            ],
+            "name": "article",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "class": "Column-sc-3a2d7x-0 loLIxT",
+            "width": "4",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "Card-xtwp70-0 dpXwBU",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "href": "/pokemon/Item 4",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Item 4",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "href": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "href": undefined,
+                  },
+                },
+              ],
+              "name": "article",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "class": "Column-sc-3a2d7x-0 loLIxT",
+            "width": "4",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "Card-xtwp70-0 dpXwBU",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "href": "/pokemon/Item 2",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Item 2",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "href": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "href": undefined,
+                  },
+                },
+              ],
+              "name": "article",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Object {
+            "attribs": Object {
+              "class": "Column-sc-3a2d7x-0 loLIxT",
+              "width": "4",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "Card-xtwp70-0 dpXwBU",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "href": "/pokemon/Item 1",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Item 1",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "href": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "href": undefined,
+                    },
+                  },
+                ],
+                "name": "article",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "class": "Column-sc-3a2d7x-0 loLIxT",
+          "width": "4",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "Card-xtwp70-0 dpXwBU",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "href": "/pokemon/Item 4",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Item 4",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "href": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "href": undefined,
+                },
+              },
+            ],
+            "name": "article",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "class": "Column-sc-3a2d7x-0 loLIxT",
+            "width": "4",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "Card-xtwp70-0 dpXwBU",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "href": "/pokemon/Item 3",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Item 3",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "a",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "href": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "href": undefined,
+                  },
+                },
+              ],
+              "name": "article",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": Object {
+            "attribs": Object {
+              "class": "Column-sc-3a2d7x-0 loLIxT",
+              "width": "4",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "Card-xtwp70-0 dpXwBU",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "href": "/pokemon/Item 2",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Item 2",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "href": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "href": undefined,
+                    },
+                  },
+                ],
+                "name": "article",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "class": "Column-sc-3a2d7x-0 loLIxT",
+                "width": "4",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "Card-xtwp70-0 dpXwBU",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "href": "/pokemon/Item 1",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Item 1",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "href": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "href": undefined,
+                      },
+                    },
+                  ],
+                  "name": "article",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "width": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "width": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "width": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+            "width": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+          "width": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;

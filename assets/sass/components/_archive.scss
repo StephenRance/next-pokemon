@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #ARCHIVE
+\*------------------------------------*/
+
+.c-archive {
+	position: relative;
+
+	&__icon {
+		display: block;
+		height: auto;
+		width: 200px;
+	}
+
+	&__overlay {
+		align-items: center;
+		background: $color_senary;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		left: 0;
+		opacity: 0;
+		padding: 20px;
+		pointer-events: none;
+		position: fixed;
+		top: 0;
+		transition: opacity 0.3s ease-in-out, visibility 0s ease-in-out 0.3s;
+		width: 100%;
+		visibility: hidden;
+		z-index: 9;
+
+		&.is-visible {
+			opacity: 1;
+			pointer-events: auto;
+			transition-delay: 0s, 0s;
+			visibility: visible;
+		}
+	}
+}

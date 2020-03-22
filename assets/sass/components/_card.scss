@@ -1,0 +1,28 @@
+/*------------------------------------*\
+  #CARD
+\*------------------------------------*/
+
+.c-card {
+	&,
+	&__img {
+		display: block;
+		border-radius: 5px;
+	}
+
+	background: $color_senary;
+	margin-bottom: 20px;
+	padding: 10px;
+	transition: background 0.3s ease-in-out;
+
+	&:hover {
+		background: $color_septenary;
+	}
+
+	&__img {
+		background: $color_secondary;
+		height: 100%;
+		object-fit: contain;
+		padding: 20px;
+		width: 100%;
+	}
+}

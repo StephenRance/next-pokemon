@@ -1,0 +1,29 @@
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+
+.c-btn {
+	background: $color_quaternary;
+	border-radius: 5px;
+	color: $color_secondary;
+	cursor: pointer;
+	display: block;
+	min-width: 100px;
+	opacity: 1;
+	padding: 10px;
+    text: {
+        align: center;
+        decoration: none;
+    }
+    transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+    &:hover,
+    &.is-active,
+    &[disabled] {
+        background: $color_quinary;
+	}
+
+	&[disabled] {
+		opacity: 0.5;
+	}
+}

@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  #LIST
+\*------------------------------------*/
+
+.c-list {
+	align-items: center;
+	display: flex;
+	list-style: none;
+	margin-left: -10px;
+	width: calc(100% + 20px);
+
+	&--right {
+		justify-content: flex-end;
+	}
+
+	&__item {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
