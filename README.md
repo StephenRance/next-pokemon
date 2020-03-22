@@ -9,6 +9,7 @@ This project is the first I've started using React.js. It initially fetches data
 - Visit http://localhost:3000/pokemon
 
 # to-do
+- Fix tabbing
 - Probably shouldn't hotlink to other site's images on the `/pokemon` page, although the images aren't available from the API at this point
 - Apply basic styling to remaining components and dynamic pages
 - Add filters for gen 1, 2, 3, etc. - however the API request will have to be manual
